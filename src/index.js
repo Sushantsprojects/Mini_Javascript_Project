@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import "./index.css";
 
-let curDate = new Date(2021,5,5,18);
-//let curDate = new Date();
+//let curDate = new Date(2021,5,5,18);
+let curDate = new Date();
 curDate = curDate.getHours();
 let greeting = '';
 
